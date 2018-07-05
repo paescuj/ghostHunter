@@ -446,7 +446,7 @@ Once you are able to rebuild ghostHunter, you can edit the source file at ``src/
   * You can just download the ZIP archive and unpack it in `assets`. To update to a later version, download and unZIP again.
   * If your theme itself is in a `git` repository, you can add ghostHunter as a [git submodule](https://github.com/blog/2104-working-with-submodules) or a [git subtree](https://www.atlassian.com/blog/git/alternatives-to-git-submodule-git-subtree). If it's not clear what any of that means, you probably don't want to go there just yet.
 
-<a name="f3" href="#r3">[3]</a> There is another copy of the module in `dist` called `jquery.ghosthunter.use-require.js`. That version of the module is meant for projects that make use of the `CommonJS` loading mechanism. If you are not using `CommonJS`, you can ignore this version of the module.
+<a name="f3" href="#r3">[3]</a> There is another copy of the module in `dist` called `jquery.ghosthunter-use-require.js`. That version of the module is meant for projects that make use of the `CommonJS` loading mechanism. If you are not using `CommonJS`, you can ignore this version of the module.
 
 <a name="f4" href="#r4">[4]</a> Features requiring deeper control would include fuzzy searches by [Levenstein distance](https://en.wikipedia.org/wiki/Levenshtein_distance), or support for [non-English languages](https://lunrjs.com/guides/language_support.html) in `lunr.js`, for example.
 
