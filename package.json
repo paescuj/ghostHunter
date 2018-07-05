@@ -2,7 +2,7 @@
   "name": "ghosthunter",
   "version": "0.3.6",
   "description": "GhostHunter allows a theme developer for the Ghost blogging platform to add client-side search capability using lunr.js.",
-  "main": "jquery.ghostHunter.js",
+  "main": "dist/jquery.ghosthunter.js",
   "directories": {
     "example": "example"
   },
