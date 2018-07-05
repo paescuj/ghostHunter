@@ -6,7 +6,7 @@
 */
 (function( $ ) {
 
-	/* LUNR */
+        var lunr = require('lunr');
 
 	/* LEVENSHTEIN */
 

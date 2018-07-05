@@ -296,7 +296,7 @@
 					var localUrl = me.subpath + arrayItem.url
 					me.blogData[arrayItem.id] = {
 						title: arrayItem.title,
-						description: arrayItem.meta_description,
+						description: arrayItem.custom_excerpt,
 						pubDate: prettyDate(parsedData.pubDate),
 						link: localUrl,
 						tags: tag_arr
